@@ -1,6 +1,5 @@
-import fetch from 'node-fetch';
-
 export default async function handler(req, res) {
+  const fetch = (await import('node-fetch')).default;
   const { method, body, headers } = req;
 
   try {
