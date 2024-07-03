@@ -1,0 +1,8 @@
+{
+    "rewrites": [
+      {
+        "source": "/leetcode",
+        "destination": "/api/leetcode"
+      }
+    ]
+  }
