@@ -4,7 +4,12 @@
     {
       "src": "/api/leetcode",
       "dest": "https://leetcode.com/graphql",
-      "methods": ["GET", "POST"]
+      "methods": ["GET", "POST"],
+      "headers": {
+        "Access-Control-Allow-Origin": "https://your-vite-react-project-domain.com",
+        "Access-Control-Allow-Methods": "GET, POST",
+        "Access-Control-Allow-Headers": "Content-Type"
+      }
     }
   ]
 }
