@@ -1,15 +1,8 @@
 {
-  "version": 2,
-  "routes": [
+  "rewrites": [
     {
-      "src": "/api/leetcode",
-      "dest": "https://leetcode.com/graphql",
-      "methods": ["GET", "POST"],
-      "headers": {
-        "Access-Control-Allow-Origin": "*",
-        "Access-Control-Allow-Methods": "GET, POST",
-        "Access-Control-Allow-Headers": "Content-Type"
-      }
+      "source": "/leetcode",
+      "destination": "https://leetcode.com/graphql"
     }
   ]
 }
