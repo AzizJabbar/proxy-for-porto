@@ -1,8 +1,10 @@
 {
-  "rewrites": [
+  "version": 2,
+  "routes": [
     {
-      "source": "/leetcode",
-      "destination": "https://leetcode.com/graphql"
+      "src": "/api/leetcode",
+      "dest": "https://leetcode.com/graphql",
+      "methods": ["GET", "POST"]
     }
   ]
 }
