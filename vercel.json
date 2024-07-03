@@ -6,7 +6,7 @@
       "dest": "https://leetcode.com/graphql",
       "methods": ["GET", "POST"],
       "headers": {
-        "Access-Control-Allow-Origin": ["https://your-vite-react-project-domain.com", "http://localhost:5173"],
+        "Access-Control-Allow-Origin": "https://your-vite-react-project-domain.com, http://localhost:5173",
         "Access-Control-Allow-Methods": "GET, POST",
         "Access-Control-Allow-Headers": "Content-Type"
       }
